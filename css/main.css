@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+:root {
+  --primary-color: #C84630;
+  --dark-color: #333;
+  --light-color: #F4F4F4;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.4;
+  color: var(--dark-color);
+}
+
+a {
+  text-decoration: none;
+  color: var(--dark-color);
+}
+
+p {
+  margin: 0.75rem 0;
+}
+
+textarea {
+  resize: vertical;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  width: 1100px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.text-center { text-align: center; }
+.text-left { text-align: left; }
+.text-right { text-align: right; }
+
+.bg-primary {
+  background-color: var(--primary-color);
+  color: #FFF;
+}
+.bg-dark {
+  background-color: var(--dark-color);
+  color: #FFF;
+}
+
+.bg-light {
+  background-color: var(--light-color);
+  color: var(--dark-color);
+}
+
+.bg-dark a {
+  color: #FFF;
+}
