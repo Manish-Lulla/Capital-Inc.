@@ -221,3 +221,30 @@ ul.list li {
 #contact .item>* {
   height: 100%;
 }
+/******************************************
+********** Scrollbars *********************
+******************************************/
+
+::-webkit-scrollbar {
+  width: 12px; 
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.6);
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+  width: 12px;
+  background-color: var(--primary-color);
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+  background: rgba(200, 70, 48, .6);
+}
+
+::selection {
+  background: rgba(200, 70, 48, .6);
+  color: #FFF;
+}
